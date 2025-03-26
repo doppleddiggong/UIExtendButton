@@ -11,25 +11,6 @@
 ✅ **가볍고 사용하기 쉬운 구성**  
 
 이제 **`ColorBlock`을 직접 설정하지 않아도** 버튼의 상태별 색상을 편리하게 조정할 수 있습니다.  
-
-**[ExtendButton]**
-Button에 이벤트 추가
-> OnHoverEnter, 
-> OnHoverExit,
-> OnPress
-> OnRelease 
-
-버튼 효과음 기능 추가
-> HoverSound
-> ClickSound
-
-**ExtendButtonVisualCtrl**
-Button의 이미지의 색상에 따라 Button 의 ColorBlock 자동 입력 로직 추가
-Button 이벤트에 따라 제어될 Graphic 컬러 변경 이벤트 추가
-
-**UIElementScaler**
-> OutElastic 적용한 탄성 이벤트 구현
-
 ---
 
 ## **📦 설치 방법**  
