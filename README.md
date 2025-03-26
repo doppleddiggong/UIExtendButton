@@ -1,11 +1,5 @@
----
-
 # **UI Extend Button**  
 *Unity의 UI 버튼을 확장하여 더욱 유연한 비주얼과 상호작용을 제공합니다.*  
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-
----
 
 ![Image](https://github.com/user-attachments/assets/9bd8a5a2-0a01-4d0a-b837-95a290c12097)
 
