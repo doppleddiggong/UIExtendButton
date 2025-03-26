@@ -54,7 +54,7 @@ ExtendButton을 통해 제어할 수 있습니다
 ### 4. UIElementScaler를 통해 Scale애니메이션을 제어할 수 있습니다
 
 ### 5. 자세한 사용은 SampleScene과 영상을 확인해보세요. 을 확인해보세요.
-[LINK](https://www.youtube.com/watch?v=x5TORVhY0CU)에서 영상을 확인하세요.
+[![Video](https://img.youtube.com/vi/x5TORVhY0CU/0.jpg)](https://www.youtube.com/watch?v=x5TORVhY0CU)
 
 ---
 
