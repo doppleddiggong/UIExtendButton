@@ -1,0 +1,28 @@
+{
+  "name": "com.dopple.UIExtendButton",
+  "version": "1.0.0",
+  "displayName": "UI Extend Button",
+  "description": "A Unity UI extension for customizing button visuals, including hover effects, press states, and automatic color adjustments.",
+  "unity": "2020.3",
+  "author": {
+      "name": "dopple",
+      "email": "ju100.bae@gmail.com",
+      "url": "https://github.com/doppleddiggong"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/doppleddiggong/UIExtendButton.git"
+  },
+  "keywords": [
+      "editor",
+      "unity",
+      "assets",
+      "UGUI",
+      "UI",
+      "button",
+      "color",
+      "interaction"
+  ],
+  "type": "tool",
+  "license": "MIT"
+}
