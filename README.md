@@ -83,8 +83,3 @@ buttonCtrl.OnRelease(); // 원래 상태로 복귀
 - 문제가 발생하면 [이슈](https://github.com/doppleddiggong/UIExtendButton/issues)에 등록해 주세요.  
 
 ---
-
-✅ **이제 패키지가 OpenUPM 및 GitHub에서 잘 보일 준비가 되었습니다!** 🚀
-```
-
----
