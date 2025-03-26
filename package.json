@@ -1,5 +1,5 @@
 {
-  "name": "com.dopple.UIExtendButton",
+  "name": "com.dopple.uiextendbutton",
   "version": "1.0.0",
   "displayName": "UI Extend Button",
   "description": "A Unity UI extension for customizing button visuals, including hover effects, press states, and automatic color adjustments.",
