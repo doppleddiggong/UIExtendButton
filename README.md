@@ -72,7 +72,6 @@ ExtendButton을 통해 제어할 수 있습니다
 
 ## **🔗 관련 링크**  
 - **GitHub 저장소**: [UIExtendButton](https://github.com/doppleddiggong/UIExtendButton)  
-- **OpenUPM 패키지**: [OpenUPM](https://openupm.com/packages/com.dopple.UIExtendButton/)  
 
 ---
 
