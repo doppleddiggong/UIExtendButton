@@ -1,8 +1,3 @@
-```markdown
-### 📌 `README.md` 초안 (한글)  
-
----
-
 # **UI Extend Button**  
 *Unity의 UI 버튼을 확장하여 더욱 유연한 비주얼과 상호작용을 제공합니다.*  
 
@@ -39,8 +34,6 @@ Unity 프로젝트의 `Packages/manifest.json` 파일에 다음 내용을 추가
   "com.dopple.UIExtendButton": "https://github.com/doppleddiggong/UIExtendButton.git"
 }
 ```
-
----
 
 ## **🚀 사용 방법**  
 
