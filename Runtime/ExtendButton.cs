@@ -109,6 +109,8 @@ namespace DoppleLittleHelper
             if (isPressed)
             {
                 isPressed = false;
+                isHovering = false;
+
                 onRelease.Invoke();
             }
         }

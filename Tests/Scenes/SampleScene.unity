@@ -601,7 +601,7 @@ GameObject:
   - component: {fileID: 296603520}
   - component: {fileID: 296603519}
   m_Layer: 5
-  m_Name: Button_Sample (4)
+  m_Name: Button_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -825,6 +825,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 296603519}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverExit:
     m_PersistentCalls:
       m_Calls:
@@ -840,12 +852,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onPress:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 296603521}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
-        m_MethodName: OnPress
+      - m_Target: {fileID: 296603519}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleDown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -855,9 +864,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 296603519}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleUp
+  onPress:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 296603521}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
+        m_MethodName: OnPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -871,7 +883,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 296603521}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
         m_MethodName: OnRelease
         m_Mode: 1
         m_Arguments:
@@ -883,8 +895,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 296603519}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleDown
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ResetScale
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1374,7 +1386,7 @@ GameObject:
   - component: {fileID: 768472513}
   - component: {fileID: 768472512}
   m_Layer: 5
-  m_Name: Button_Sample (3)
+  m_Name: Button_White
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1598,6 +1610,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 768472512}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverExit:
     m_PersistentCalls:
       m_Calls:
@@ -1613,12 +1637,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onPress:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 768472514}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
-        m_MethodName: OnPress
+      - m_Target: {fileID: 768472512}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleDown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1628,9 +1649,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 768472512}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleUp
+  onPress:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 768472514}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
+        m_MethodName: OnPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1644,7 +1668,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 768472514}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
         m_MethodName: OnRelease
         m_Mode: 1
         m_Arguments:
@@ -1656,8 +1680,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 768472512}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleDown
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ResetScale
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1725,7 +1749,7 @@ GameObject:
   - component: {fileID: 865958054}
   - component: {fileID: 865958053}
   m_Layer: 5
-  m_Name: Button_Sample (1)
+  m_Name: Button_Yellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1949,6 +1973,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 865958053}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverExit:
     m_PersistentCalls:
       m_Calls:
@@ -1964,12 +2000,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onPress:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 865958055}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
-        m_MethodName: OnPress
+      - m_Target: {fileID: 865958053}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleDown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1979,9 +2012,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 865958053}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleUp
+  onPress:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 865958055}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
+        m_MethodName: OnPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1995,7 +2031,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 865958055}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
         m_MethodName: OnRelease
         m_Mode: 1
         m_Arguments:
@@ -2007,8 +2043,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 865958053}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleDown
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ResetScale
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2076,7 +2112,7 @@ GameObject:
   - component: {fileID: 947905913}
   - component: {fileID: 947905914}
   m_Layer: 5
-  m_Name: Button_Sample
+  m_Name: Button_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2189,6 +2225,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 947905914}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverExit:
     m_PersistentCalls:
       m_Calls:
@@ -2204,12 +2252,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onPress:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 947905909}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
-        m_MethodName: OnPress
+      - m_Target: {fileID: 947905914}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleDown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2219,9 +2264,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 947905914}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleUp
+  onPress:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 947905909}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
+        m_MethodName: OnPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2235,7 +2283,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 947905909}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
         m_MethodName: OnRelease
         m_Mode: 1
         m_Arguments:
@@ -2247,8 +2295,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 947905914}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleDown
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ResetScale
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2949,7 +2997,7 @@ GameObject:
   - component: {fileID: 1622836481}
   - component: {fileID: 1622836480}
   m_Layer: 5
-  m_Name: Button_Sample (2)
+  m_Name: Button_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3173,6 +3221,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1622836480}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverExit:
     m_PersistentCalls:
       m_Calls:
@@ -3188,12 +3248,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onPress:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1622836482}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
-        m_MethodName: OnPress
+      - m_Target: {fileID: 1622836480}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ScaleDown
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3203,9 +3260,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1622836480}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleUp
+  onPress:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1622836482}
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
+        m_MethodName: OnPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3219,7 +3279,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1622836482}
-        m_TargetAssemblyTypeName: ExtendButtonVisualCtrl, Assembly-CSharp
+        m_TargetAssemblyTypeName: DoppleLittleHelper.ExtendButtonVisualCtrl, UIExtendButton
         m_MethodName: OnRelease
         m_Mode: 1
         m_Arguments:
@@ -3231,8 +3291,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1622836480}
-        m_TargetAssemblyTypeName: UIElementScaler, Assembly-CSharp
-        m_MethodName: ScaleDown
+        m_TargetAssemblyTypeName: DoppleLittleHelper.UIElementScaler, UIExtendButton
+        m_MethodName: ResetScale
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

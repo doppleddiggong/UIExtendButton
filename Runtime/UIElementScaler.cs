@@ -12,6 +12,7 @@ namespace DoppleLittleHelper
         Coroutine scaleCoroutine;
 
         void Start() => originalScale = transform.localScale;
+        public void ResetScale() => this.transform.localScale = originalScale;
 
         public void ScaleUp()
         {
